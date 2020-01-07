@@ -12,10 +12,10 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "dev-server": "nodemon ./server/server.js",
+    "dev-server": "react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
