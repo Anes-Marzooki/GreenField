@@ -6,12 +6,21 @@ class App extends Component {
     super(props);
     this.state = {
       teachers: teachers,
+      searchQuery: ''
     }
 
+    this.inputHandler = this.inputHandler.bind(this);
+  }
+
+  inputHandler(event) {
+    this.setState({searchQuery: event.target.value})
   }
   render() {
     return(
-      <div>
+      <div className='tc'>
+        <form>
+          <input type="text" onChange={this.inputHandler} />
+        </form>
         <ul>
           {
             this.state.teachers.map( teacher => {
