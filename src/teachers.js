@@ -2,7 +2,7 @@ export const teachers = [
   {
     id: 1,
     name: 'Leanne Graham',
-    category: 'Bret',
+    category: 'English',
     email: 'Sincere@april.biz'
   },
   {
@@ -58,5 +58,11 @@ export const teachers = [
     name: 'Clementina DuBuque',
     category: 'Philosophy',
     email: 'Rey.Padberg@karina.biz'
+  },
+  {
+    id: 11,
+    name: 'Clementina Carrot',
+    category: 'Sports',
+    email: 'Clem.padd@karina.biz'
   }
 ];
